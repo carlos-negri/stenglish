@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junte-se a nós!</title>
+    <link rel="icon" type="image" href="../img/logo.ico">
+    <link rel="stylesheet" href="../css/est_juntese.css">
+    <script src="../js/script.js"></script>
+     
+</head>
+<body>
+    <nav class="bar">
+        <div>
+            <a href="index.html"><img class="logo" src="../img/logo.png"></a>
+
+        </div>
+        <ul class="menu">
+            <li class="itemNav"><a href="index.html">Início</a></li>
+            <li class="itemNav">
+                <a href="#" onclick="dropqmsomos()" class="dropbtn">Quem somos?</a>
+                <ul id="drop" class="conteudo">
+                    <li><a href="escola.html">Escola</a></li>
+                    <li><a href="servicos.html">Servicos</a></li>
+                </ul>
+            </li>
+            <li class="itemNav"><a href="juntese.html">Junte-se a nós!</a></li>
+            <li class="itemNav"><a href="contato.html">Contato</a></li>
+
+        </ul>
+    </nav>
+    <div class="form">
+    <h1>Welcome to the family!</h1><br>
+    <p>Para entrarmos em contato, precisamos de algumas infos, ok?</p><br>
+        <form class="campos" action="#" method="post" onsubmit="mostrarMensagem()">
+            Primeiro nome:<br>
+            <input type="text" name="nome" placeholder="João" required><br>
+            Sobrenome:<br>
+            <input type="text" name="sobrenome" placeholder="Da Silva" required> <br>
+            Insira seu e-mail:<br>
+            <input type="email" name="email" placeholder ="exemplo@mail.com" required><br>
+            Insira seu numero de telefone:<br>
+            <input type="tel" name="telefone" placeholder="(xx) 9 xxxx-xxxx" pattern="([0-9]{2})[[9]{1}-[0-9]{4}-[0-9]{4}" required><br>
+            <input class="subm" type="submit" name="enviar" value="Enviar"><br>
+        </form>
+    </div>
+    </body>
+    <footer class="rodape">
+        <p><a target="_blank" rel="nofollow" href="https://wa.me/message/Q24Y4WLX3FMQH1">(55) 9 1234-5678</a></p>
+        <p><a target="_blank" rel="nofollow" href="mailto:contato@saintenglish.com?">contato@saintenglish.com</a></p>
+        <p>Rua dos Bobos, Numero 0</p>
+    </footer>
+</html>

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* { /*reseta tudo p nao deixar com barra branca*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+body{
+  background-color: rgb(255, 77, 77);
+}
+
+
+  /*barra de navegação */
+  .bar {
+    background-color: rgb(0, 132, 255); /*define o fundo da barra p azul*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*alinha os itens ao centro e deixa espaçado certinho*/
+    padding: 10px;
+  }
+  
+  .logo {
+    max-height: 50px; /*pro logotipo nao ficar enorme*/
+  }
+  
+  .menu {
+    display: flex;
+    list-style-type: none; /*tira os pontinho da lista*/
+  }
+  
+  .itemNav {
+    font-weight: 500;
+    font-size: 20px;
+    height: 20px;
+    margin-right: 60px;
+  }
+  
+  .itemNav a:hover{ /*qdo eu passar o mouse por cima dos links da lista, isso acontece*/
+    background-color: rgb(255, 77, 77);
+    color: whitesmoke;
+    border-radius: 5px; /*p deixar meio arredonado*/
+  }
+
+  .itemNav a {
+    color: whitesmoke;
+    text-decoration: none;/*p tirar as linha de baixo dos links*/
+  }
+  
+  /* .nome{
+    color: yellow;
+    display: flex;
+  } */
+
+  /* menu dropdown do 'quem somos' */
+  .conteudo {
+    position: absolute;
+    background-color: rgb(0, 132, 255);
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  .conteudo a {
+    /* display: block; */
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+  .conteudo a:hover {
+    background-color: rgb(255, 77, 77);
+    color: whitesmoke;
+  }
+  
+  /* imagem da escola na pagina index */
+
+  .escola {
+    text-align: center;
+  }
+
+  .escola img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    text-align: center;
+    width: 50%;
+    height: auto;
+  }
+
+
+  .welcome{
+    font-size: 20px;
+    display: flex;
+    color: whitesmoke;
+    height: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+    
+  .welcome2{
+    display: flex;
+    color: whitesmoke;
+    height: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+ #drop {
+  display: none; /*era pro dropdown desaparecer qdo atualizasse mas n aconteceu*/
+}
+
+.rodape{
+  background-color: rgb(0, 132, 255);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.rodape a{
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+
+.rodape a:hover{
+  background-color: rgb(255, 77, 77);
+}
